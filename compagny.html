@@ -63,32 +63,33 @@
             </p>
             <button id="mybtn" class="btn__one ">Обратиться к нам</button>
           <div class="model__container"> 
-            <div class="model__background">
+            <div class="model__background"> 
             </div>
               <div id="myModal" class="modal" >
-                  <div class="modal-content">
-                    <span class="close">
-                      <img src="src/icons/close 1.svg" alt="close">
-                    </span>
-                    <div class="modal-content__form">
-                        <h2>
-                          Форма обратной связи
-                        </h2>
-                        <div class="form__name">
-                          <input type="text" placeholder="Ваше имя">
-                        </div>
-                        <div class="form__tel">
-                          <input type="tel" id="phone" name="phone" placeholder="Телефон" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}">
-                        </div>
-                        <div class="form__box">
-                          <input type="checkbox" id="subscribeNews" name="subscribe" value="newsletter">
-                          <label for="subscribeNews">Согласен(а) с обработкой персональных данных</label>
-                        </div>
-                        <div class="form__btn">
-                          <button>Обратиться к нам</button>
-                        </div>
-                    </div>    
-                  </div>
+                <form name="main" class="main-form" action="#" method="get" >
+                    <div class="modal-content">
+                      <span class="close">
+                        <img src="src/icons/close 1.svg" alt="close">
+                      </span>
+                        <div class="modal-content__form">
+                          <h2> Форма обратной связи</h2>
+                          <div class="form__name">
+                           <input type="text" placeholder="Ваше имя" required>
+                          </div>
+                          <div class="form__tel">
+                            <input type="tel" id="phone" name="phone" placeholder="Телефон" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required>
+                          </div>
+                          <div class="form__box">
+                            <input type="checkbox" id="subscribeNews" name="subscribe" value="newsletter" required>
+                            <label for="subscribeNews">Согласен(а) с обработкой персональных данных</label>
+                          </div>
+                          <div class="form__btn">
+                            <button type="submit">Обратиться к нам</button>
+                         </div>
+                      </div>
+                    </div>
+                </form>
+
                
             </div>
           </div>
