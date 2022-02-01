@@ -9,6 +9,7 @@
   <link rel="stylesheet" href="src/css/style.css">
   <link rel="stylesheet" href="src/css/media.css">
   <link rel="stylesheet" href="src/js/app.js">
+    <script src="src/js/app.js" defer></script>
   <title>Document</title>
 
 </head>
@@ -51,63 +52,73 @@
   </header>
 
   <div class="content">
-    <div class="container">
-        <div class="content__sliders">
-          <div class="slide__one mySlides">
-            <h2>
-              Заготовка лома черных металлов
-            </h2>
-            <h3>
-              Специализация заготовка переработка реализация лома и отходов черных металлов
-            </h3>
-            <div class="slide__one-contact ">
-              <img src="src/icons/Group 40.svg" alt="">
-              <h4>
-                Обратиться к нам
-              </h4>
-            </div>
+      <div class="container">
+    <div class="b-carousel js-carousel">
+        <div class="content__sliders b-carousel__wrap js-carousel__wrap">
+          <div class="b-carousel__item">
+              <div class="slide__one mySlides ">
+                  <h2>
+                      Заготовка лома черных металлов
+                  </h2>
+                  <h3>
+                      Специализация заготовка переработка реализация лома и отходов черных металлов
+                  </h3>
+                  <div class="slide__one-contact ">
+                      <img src="src/icons/Group 40.svg" alt="">
+                      <h4>
+                          Обратиться к нам
+                      </h4>
+                  </div>
+              </div>
           </div>
+            <div class="b-carousel__item">
+                <div class="slide__two mySlides">
+                    <h2>
+                        Заготовка лома цветных металлов
+                    </h2>
+                    <h3>
+                        Специализация заготовка переработка реализация лома и отходов цветных металлов
+                    </h3>
+                    <div class="slide__two-contact">
+                        <img src="src/icons/Group 40.svg" alt="">
+                        <h4>
+                            Обратиться к нам
+                        </h4>
+                    </div>
+                </div>
+            </div>
+            <div class="b-carousel__item">
+                <div class="slide__three mySlides">
+                    <h2>
+                        Заготовка отработанных аккумуляторных батарей
+                    </h2>
+                    <div class="slide__three-contact">
+                        <img src="src/icons/Group 40.svg" alt="">
+                        <h4>
+                            Обратиться к нам
+                        </h4>
+                    </div>
+                </div>
+            </div>
+
         
-          <div class="slide__two mySlides">
-            <h2>
-              Заготовка лома цветных металлов
-            </h2>
-            <h3>
-              Специализация заготовка переработка реализация лома и отходов цветных металлов
-            </h3>
-            <div class="slide__two-contact">
-              <img src="src/icons/Group 40.svg" alt="">
-              <h4>
-                Обратиться к нам
-              </h4>
-            </div>
-          </div>
-        
-          <div class="slide__three mySlides">
-            <h2>
-              Заготовка отработанных аккумуляторных батарей
-            </h2>
-            <div class="slide__three-contact">
-              <img src="src/icons/Group 40.svg" alt="">
-              <h4>
-                Обратиться к нам
-              </h4>
-            </div>
-          </div>
+
        
         </div>
         
-        <div class="slides">
-          <div class="slider__previous">
-            <a href="#"  onclick="plusSlides(-1)"><img src="src/icons/Group 41.svg" alt="icons"></a>
-        
-          </div>
-          <div class="slider__next" >
-            <a href="#" ><img src="src/img/Group 41.svg" alt="icons"></a>
-          </div>
-        </div>
+
 
     </div>
+      </div>
+      <div class="slides">
+          <div class="slider__previous">
+              <a href="#" class="js-carousel__prev" ><img src="src/icons/Group 41.svg" alt="icons"></a>
+
+          </div>
+          <div class="slider__next" >
+              <a href="#" class="js-carousel__next" ><img src="src/img/Group 41.svg" alt="icons"></a>
+          </div>
+      </div>
   </div>
 
 
