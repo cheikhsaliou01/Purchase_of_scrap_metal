@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+  <link rel="stylesheet" href="src/css/compagny.css">
+
+ 
+  <title>Document</title>
+
+</head>
+
+<body>
+  <header class="header">
+    <div>
+      <div class="header__body">
+        <div class="header__logo">
+          <img src="src/img/лого.png" alt="logo">
+          <ul>
+            <li><a href="" class="header__link ">Объединенная металлоломная компания</a></li>
+          </ul>
+
+        </div>
+        <div class="header__burger" onclick="toggleMenu()">
+          <span></span>
+        </div>
+        <div class="menu__body">
+          <nav class="header__menu">
+            <ul class="header__list">
+              <li ><a href="" class="header__link number ">8 905 171-77-82</a></li>
+              <li class="header__hover"><a href="" class="header__link a">Отдел заготовки лома цветных металлов</a></li>
+              <li><a href="" class="header__link number">8 905 171-32-44</a></li>
+              <li class="header__hover"><a href="" class="header__link a">Отдел заготовки лома черных металлов</a></li>
+              <li class="header__adresse"><a href="" class="header__link adress">308012 г. Белгород, ул. Костюкова 46
+                  "Б" офис 313</a></li>
+              <li class="header-right">
+                <ul>
+                  <li class="header-right-company"><a href="" class="header__link item">О компании</a></li>
+                  <li class="header-right-contact"><a href="" class="header__link">Контакты</a></li>
+                </ul>
+              </li>
+
+            </ul>
+          </nav>
+
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <div class="content">
+    <div class="container content__container">
+        <div class="content__left">
+          <img src="src/img/Group.png" alt="photo">
+          <div class="content__left-text">
+            <p>
+              Если у вас возникли вопросы и вы желаете связаться с нами, то нажмите на кнопку «обратиться к нам» и наши
+              специалисты
+              свяжутся с вами в ближайшее время
+            </p>
+            <button id="mybtn" class="btn__one ">Обратиться к нам</button>
+          <div class="model__container"> 
+            <div class="model__background">
+            </div>
+              <div id="myModal" class="modal" >
+                  <div class="modal-content">
+                    <span class="close">
+                      <img src="src/icons/close 1.svg" alt="close">
+                    </span>
+                    <div class="modal-content__form">
+                        <h2>
+                          Форма обратной связи
+                        </h2>
+                        <div class="form__name">
+                          <input type="text" placeholder="Ваше имя">
+                        </div>
+                        <div class="form__tel">
+                          <input type="tel" id="phone" name="phone" placeholder="Телефон" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}">
+                        </div>
+                        <div class="form__box">
+                          <input type="checkbox" id="subscribeNews" name="subscribe" value="newsletter">
+                          <label for="subscribeNews">Согласен(а) с обработкой персональных данных</label>
+                        </div>
+                        <div class="form__btn">
+                          <button>Обратиться к нам</button>
+                        </div>
+                    </div>    
+                  </div>
+               
+            </div>
+          </div>
+          </div>
+        </div>
+        
+        <div class="content__right">
+          <div class="content__right-first">
+            <h2>
+              О компании
+            </h2>
+            <p>
+              Крупный ломозаготовительный холдинг, образованный в результате слияния лидирующих ломозаготовительных компаний
+              Белгородской области
+            </p>
+            <div class="content__right-divider">
+              <span></span>
+            </div>
+          </div>
+          <div class="content__right-second">
+            <h2>
+              Возможности
+            </h2>
+            <div class="text__first">
+              <ul>
+                <li class="item__one">Вывоз металлолома собственным транспортом</li>
+                <li class="item__two">Развитая сеть ломозаготовительных площадок</li>
+                <li class="item__three">Работа со всеми способами оплаты</li>
+              </ul>
+            </div>
+            <div class="text__second">
+              <ul>
+                <li class="text__one">Демонтаж металлоконструкций</li>
+                <li class="text__two">Электронное взвешивание</li>
+                <li class="text__three">Экспресс анализ металлов</li>
+              </ul>
+            </div>
+          </div>
+
+        
+    </div>
+  </div>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__row">
+        <div class="footer__copyright">
+          <ul>
+            <li>
+              Copyright © 2022 Объединенная металлоломная компания
+            </li>
+            <li class="footer__copyright-text">
+              Политика конфиденциальности
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer__text">
+          <ul>
+            <li>
+              Продвижение сайтов
+            </li>
+          </ul>
+        </div>
+        <div class="footer__divider">
+          <span></span>
+        </div>
+        <div class="footer__logo">
+          <a href="#" class="footer__logo">
+            <img src="src/img/webstyle_black.png" alt="logo site">
+          </a>
+        </div>
+      </div>
+    </div>
+
+
+  </footer>
+
+<script src="src/js/app.js"></script> 
+</body>
+
+</html>

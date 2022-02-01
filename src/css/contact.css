@@ -1,0 +1,359 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+html,body{
+  height: 100%;
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&family=Roboto:ital,wght@0,300;1,300&display=swap');
+
+.header{
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 5;
+  background:url("../img/Rectangle2.png") center center/cover no-repeat;
+}
+.header__body{
+  position: relative;
+  display: flex;
+  align-items: center;
+  
+}
+.menu__body{
+  width: 100%;
+}
+.container{
+  max-width: 1550px;
+  margin: 0 auto;
+  padding: 0;
+  /* display: flex; */
+  
+}
+.header__logo{
+  flex: 0 0 50px;
+  position: relative;
+  margin: 20px 0 20px 60px;
+  z-index: 5;
+  display: flex;
+}
+.header__logo ul{
+  list-style: none;
+}
+.header__logo img{
+  margin-right: 44px;
+}
+.header__list{
+  display: flex;
+  margin-top: 27px;
+}
+
+.header__list li{
+  list-style: none;
+  margin-left: auto;
+}
+.header__link {
+  font-family: 'Roboto' ,sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.02em;
+  color: #F2F2F2;
+  text-decoration: none;
+  margin-right: 20px;
+  display: block;
+}
+.header__hover{
+  width: 170px;
+}
+
+.item{
+  width: 84px;
+}
+.number{
+  width: 111px;
+}
+.adress{
+  
+  width: 245px;
+}
+.header-right ul{
+  display: flex;
+}
+ .content{
+  padding: 100px 0 0 0; 
+  height: 900px;
+  width: 100%;
+  margin-top: 5px;
+  background:url("../img/Rectangle2.png") center center/cover no-repeat;
+}
+.content__title{
+  font-family: 'Roboto',sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 46px;
+  line-height: 54px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #F2F2F2;
+  margin-top:143px ;
+  cursor: pointer;
+}
+.content__title ul,.content__office ul,.content__adresse ul,.content__Accounting ul ,.content__contacts ul{
+  list-style: none;
+}
+.content__office{
+   font-family: 'Roboto',sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: #E0E0E0;
+  margin-top: 17px;
+  cursor: pointer;
+}
+.content__adresse{
+  font-family: 'Roboto',sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: #E0E0E0;
+  margin-top: 12px;
+  cursor: pointer;
+  
+}
+.content__Accounting{
+  font-family: 'Roboto',sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: #E0E0E0;
+  margin-top: 30px;
+  cursor: pointer;
+}
+.content__contacts{
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px ;
+  font-family: 'Roboto',sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.02em;
+  color: #E0E0E0;
+  cursor: pointer;
+}
+.ad_email{
+  color: #FFB100;
+}
+.ad_email:hover{
+  color: #FFB100;
+}
+.content__departement h3{
+  font-family: 'Roboto',sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: #E0E0E0;
+  margin-top: 30px;
+  cursor: pointer;
+}
+.content__departement ul{
+  display: flex;
+  flex-direction: column;
+  margin-top: 12px;
+  font-family: 'Roboto',sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.02em;
+  color: #E0E0E0;
+  list-style: none;
+  cursor: pointer;
+}
+.content__service-one ul,.content__service-two ul{
+  margin-top: 30px;
+  list-style: none;
+  font-family: 'Roboto',sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: #E0E0E0;
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.header-right-company:hover a{
+  color: #FFB100; 
+  position: relative;
+}
+.header-right-company:hover a::after{
+  content: '';
+  position:  absolute;
+  left: 0;
+  bottom: -10px;
+  height: 3px;
+  width: 84px;
+  background: #FFB100;
+}
+
+.header-right-contact:hover a{
+  color: #FFB100; 
+  position: relative;
+}
+.header-right-contact:hover a::after{
+  content: '';
+  position:  absolute;
+  left: 0;
+  bottom: -10px;
+  height: 3px;
+  width: 70px;
+  background: #FFB100;
+}
+
+.footer__copyright-text:hover ,.footer__text li:hover{
+  color: #FFB100; 
+}
+ .contacts__icon-left-text li{
+    list-style: none;
+ }
+.contacts__icon-left-text li:hover a{
+  color: #FFB100; 
+  position: relative;
+  
+}
+ .contacts__icon-left-text li:hover a::after{
+    content: '';
+    position:  absolute;
+    left: 0;
+    bottom: -10px;
+    height: 3px;
+    width: 165px;
+    background: #FFB100;
+ }
+
+.content_contacts-right img{
+  display: block;
+  margin-top: 20px;
+  width: 76px;
+  height: 76px;
+}
+.footer{
+  background:url("../img/Rectangle2.png") center center/cover no-repeat;
+  height: 135px;
+}
+.footer__row{
+  display: flex;
+}
+.footer__copyright li{
+  font-family:'Roboto',sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.04em;
+  color: #E0E0E0;
+  width: 235px;
+  height: 40px;
+  cursor: pointer;
+  margin-top: 60px;
+}
+
+.footer__copyright-text{
+  margin-left: 263px;
+}
+.footer__copyright ul{
+  display: flex;
+}
+.footer__copyright li,.footer__link li ,.footer__text li{
+  list-style: none;
+}
+
+.footer__text{
+  font-family:'Roboto',sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.04em;
+  color: #E0E0E0;
+  margin-top: 60px;
+  margin-left: auto;
+  cursor: pointer;
+}
+
+.footer__divider{
+  border: 1px solid #4E463E;
+  transform: rotate(90deg);
+  width: 28px;
+  height: 0px;
+  margin-top: 70px;
+  cursor: pointer;
+}
+.footer__logo img{
+  margin-top: 55px ;
+}
+/*
+AIzaSyAljJ5G5Rijzz1kTs_Qea9axnQn1Vbfbv0
+*/
+ .maps{
+  position: absolute;
+  left: 878px;
+  top: 150px;
+  padding: 0;
+  max-width: 0;
+  
+  transform: matrix(1, 0, 0, 1, 0, 0);
+ }
+ .maps iframe{
+  
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45));
+  transform: matrix(1, 0, 0, 1, 0, 0);
+ }
+ .rectanle span{
+    width: 0;
+    height: 0;
+    position: fixed;
+    border-bottom: 870px solid #181818;
+    border-right: 200px solid transparent;
+    position: absolute;
+    left: 879px;
+    top: 0px;
+ }
+
+
+
